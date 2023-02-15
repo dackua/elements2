@@ -1391,7 +1391,7 @@ nav{
 }
 /* Boxes vtor red */
 .sem-turpis{
-    width: 48%;
+    width: 100%;
     margin-right: 2%;
     float: left;
     text-align: left;
@@ -1411,8 +1411,8 @@ nav{
 }
 
 .magna-odio{
-    width: 48%;
-    margin-left: 2%;
+    width: 100%;
+    margin-left: -0.5%;
     float: left;
     text-align: left;
 }
@@ -1436,7 +1436,7 @@ nav{
     border-bottom: 1px solid #9a9a9a;
 } */
 .interdum-sapien{
-    width: 31.6%;
+    width: 100%;
     text-align: left;
     margin-right: 2%;
     float: left;
@@ -1455,7 +1455,7 @@ nav{
 }
 
 .faucibus{
-    width: 31.6%;
+  width: 100%;
     margin-right: 2%;
     text-align: left;
     float: left;
@@ -1475,7 +1475,7 @@ nav{
 }
 
 .accumsan{
-    width: 31.6%;
+  width: 100%;
     margin: 0% ;
     text-align: left;
     float: left;
@@ -2049,6 +2049,7 @@ table {
   .listadesno{
    width: 84%;
     float: none;
+    margin: 0 auto;
 }
 
   /* Buttons */
@@ -2660,6 +2661,9 @@ footer .fa-brands {
 
 .fa-brands , .fa-twitter , .fa-facebook , .fa-instagram , .fa-reddit , .fa-tumblr {
   display: inline-block;
+}
+.accumsan,.faucibus,.interdum-sapien{
+  text-align: center;
 }
 }
 
